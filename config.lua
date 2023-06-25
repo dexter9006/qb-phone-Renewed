@@ -2,7 +2,7 @@ Config = Config or {}
 
 -- Configs for Payment and Banking
 
-Config.RenewedBanking = true -- Either put this to true or false if you use Renewed Banking or not
+Config.RenewedBanking = false -- Either put this to true or false if you use Renewed Banking or not
 Config.RenewedFinances = false -- Either put this to true or false if you use Renewed Finances or not
 Config.RenewedCameras = false -- Either put this to true or false if you use Renewed Cameras or not
 
@@ -30,13 +30,13 @@ Config.BlipColor = 4
 Config.BlipIcon = 280
 Config.BlipScale = 0.75
 
-Config.TweetDuration = 8 -- How many hours to load tweets (12 will load the past 12 hours of tweets)
+Config.TweetDuration = 24 -- How many hours to load tweets (12 will load the past 12 hours of tweets)
 Config.MailDuration = 72 -- How many hours to load Mails (72 will load the past 72 hours of Mails)
 
 
 Config.RepeatTimeout = 4000
 Config.CallRepeats = 10
-Config.AllowWalking = false -- Allow walking and driving with phone out
+Config.AllowWalking = true -- Allow walking and driving with phone out
 
 
 Config.PhoneApplications = {
